@@ -1,9 +1,9 @@
-var hr = 0;
-var min = 0;
-var sec = 0;
-var count = 0;
+let hr = 0;
+let min = 0;
+let sec = 0;
+let count = 0;
 
-var timer = false;
+let timer = false;
 
 function start(){
   timer = true;
@@ -11,11 +11,12 @@ function start(){
 }
 
 function reset(){
+  hr = 0;
+  min = 0;
+  sec = 0;
+  count = 0;
+
   timer = false;
-  var hr = 0;
-  var min = 0;
-  var sec = 0;
-  var count = 0;
 
   document.getElementById("hour").innerHTML = "00";
   document.getElementById("minute").innerHTML = "00";
