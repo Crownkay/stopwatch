@@ -18,7 +18,7 @@ button{
   font-size: 1.5rem;
   font-weight: 500;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
 }
 button:hover{
@@ -62,11 +62,6 @@ h2{
   box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .buttons{
-  position: absolute;
-  margin-top: 50px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
   display: flex;
   justify-content: center;
 }
@@ -84,7 +79,15 @@ h2{
 .colon{
   padding: 0 5px;
 }
-
+blockquote{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+  background-color: #011640;
+  padding: 5px 0;
+}
 @media screen and (max-width: 600px){
   .watch_display{
     top: 40%;
@@ -94,7 +97,7 @@ h2{
   }
   .time{
     width: 90%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 1.5rem;
     font-weight: 500;
   }
@@ -105,6 +108,9 @@ h2{
   }
   #reset{
     margin: 0 15px;
-    background-color: #0cb80c;
   } 
+  blockquote{
+    margin-top: 50px;
+    font-size: 1rem;
+  }
 }
